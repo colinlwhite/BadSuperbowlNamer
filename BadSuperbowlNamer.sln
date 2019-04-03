@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadSuperbowlNamer", "BadSuperbowlNamer\BadSuperbowlNamer.csproj", "{3A1340B4-295D-4B3E-B4C5-769CE8060CB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Test", "RomanNumerals.Test\RomanNumerals.Test.csproj", "{938E142B-E1B7-42DE-A8C5-5882D87877F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3A1340B4-295D-4B3E-B4C5-769CE8060CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A1340B4-295D-4B3E-B4C5-769CE8060CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A1340B4-295D-4B3E-B4C5-769CE8060CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938E142B-E1B7-42DE-A8C5-5882D87877F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938E142B-E1B7-42DE-A8C5-5882D87877F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938E142B-E1B7-42DE-A8C5-5882D87877F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938E142B-E1B7-42DE-A8C5-5882D87877F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
