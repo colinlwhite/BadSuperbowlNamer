@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-//namespace RomanNumerals.Test
+// namespace RomanNumerals.Test
 namespace BadSuperbowlNamer.Test
 {
     public class converting_numbers_into_roman_numerals
@@ -11,10 +11,12 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-
-            // Act 
+            var input = "1";
+            var exceptedResult = "I";
+            // Act - Do the Thing - When
+            var actualResult = converter.DoWork(input);
             // Assert
-
+            Assert.Equal(actualResult, exceptedResult);
         }
 
         [Fact]
