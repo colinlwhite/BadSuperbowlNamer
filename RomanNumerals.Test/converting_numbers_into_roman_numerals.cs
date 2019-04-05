@@ -11,7 +11,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "1";
+            int input = 1;
             var exceptedResult = "I";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -24,7 +24,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "5";
+            int input = 5;
             var exceptedResult = "V";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -37,7 +37,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "9";
+            int input = "9";
             var exceptedResult = "IX";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
