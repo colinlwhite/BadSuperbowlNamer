@@ -11,7 +11,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "1";
+            int input = 1;
             var exceptedResult = "I";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -24,7 +24,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "5";
+            int input = 5;
             var exceptedResult = "V";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -37,7 +37,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "9";
+            int input = 9;
             var exceptedResult = "IX";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -50,7 +50,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "12";
+            int input = 12;
             var exceptedResult = "XII";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -63,7 +63,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "16";
+            int input = 16;
             var exceptedResult = "XVI";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -76,7 +76,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "29";
+            int input = 29;
             var exceptedResult = "XXIX";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -89,7 +89,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "44";
+            int input = 44;
             var exceptedResult = "XLIV";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -102,7 +102,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "45";
+            int input = 45;
             var exceptedResult = "XLV";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -115,7 +115,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "68";
+            int input = 68;
             var exceptedResult = "LXVIII";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -128,7 +128,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "83";
+            int input = 83;
             var exceptedResult = "LXXXIII";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -141,7 +141,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "97";
+            int input = 97;
             var exceptedResult = "XCVII";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -154,7 +154,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "99";
+            int input = 99;
             var exceptedResult = "XCIX";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -167,7 +167,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "500";
+            int input = 500;
             var exceptedResult = "D";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -180,7 +180,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "501";
+            int input = 501;
             var exceptedResult = "DI";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -193,7 +193,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "649";
+            int input = 649;
             var exceptedResult = "DCXLIX";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -206,7 +206,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "798";
+            int input = 798;
             var exceptedResult = "DCCXCVIII";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -219,7 +219,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "891";
+            int input = 891;
             var exceptedResult = "DCCCXCI";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -232,7 +232,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "1000";
+            int input = 1000;
             var exceptedResult = "M";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -245,7 +245,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "1004";
+            int input = 1004;
             var exceptedResult = "MIV";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -258,7 +258,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "1";
+            int input = 1006;
             var exceptedResult = "MVI";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -271,7 +271,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "1023";
+            int input = 1023;
             var exceptedResult = "MXXIII";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -284,7 +284,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "2014";
+            int input = 2014;
             var exceptedResult = "MMXIV";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
@@ -297,7 +297,7 @@ namespace BadSuperbowlNamer.Test
         {
             // Arrange - giving context - given
             var converter = new TranslateEngine();
-            var input = "3339";
+            int input = 3999;
             var exceptedResult = "MMMCMXCIX";
             // Act - Do the Thing - When
             var actualResult = converter.DoWork(input);
