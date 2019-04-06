@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+ // Ctrl + E, V duplicates a line if nothing is selected
+ // Line Delete Ctrl+Shift+L
+
 namespace BadSuperbowlNamer
 {
     // public class TranslateEngine
@@ -36,7 +39,7 @@ namespace BadSuperbowlNamer
     {
         public string DoWork(int input)
         {
-            // Create a dictionary made up of int and string
+            // Create a dictionary made up of int and string key value pairs to store the romnan numnerals and their values
             Dictionary<int, string> RomanNumerals = new Dictionary<int, string>();
             RomanNumerals.Add(1000, "M");
             RomanNumerals.Add(900, "CM");
@@ -52,31 +55,25 @@ namespace BadSuperbowlNamer
             RomanNumerals.Add(4, "IV");
             RomanNumerals.Add(1, "I");
 
-            // use int parse change the string parameter to an int and save as int to loop over
-            // int number = int.Parse(input);
-            // empty string builder 
+            // creating an empty string builder to store the roman numerals
             var thestring = new StringBuilder();
-            // while value passed in is greater than 0 
-            // while (input > 0)
-            // foreach loop in the dictionary
+
+            // Loop through the dictionary
             {
+                // For each key value pair in the dictionary 
                 foreach (var num in RomanNumerals)
                 {
+                   // while the number I passed in is "greater than" or "equal to" the int key in the dictionary 
                    while (input >= num.Key)
                     {
+                        // Add the value or roman numerals to the string we set above
                         thestring.Append(num.Value);
+                        // And subtract which int key that it's on in the dictionary 
                         input -= num.Key;
                     }
-                    // return thestring.ToString();
                 }
-                // return thestring.ToString();
             }
             return thestring.ToString();
-        // if the number we passed in is greater than or equal to the key in the dictionary / int
-        // add/ append its pair to the string builder we created up aboce
-        // subtract -= from the number we're checking and add it to the string? 
-        // return the string
-       //  return thestring.ToString();
         }
     }
 }
